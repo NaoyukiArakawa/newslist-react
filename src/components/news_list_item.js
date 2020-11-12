@@ -1,9 +1,12 @@
 import React from 'react'
+import { css } from 'glamor'
 
-const NewsListItem = () => {
+const NewsListItem = ({item}) => {
+
     return (
-        <div>
-            NewsItem is here
+        <div className='news_item'>
+            <h3> {item.title} </h3>
+            <div> {item.feed}</div>
         </div>
     )
 }

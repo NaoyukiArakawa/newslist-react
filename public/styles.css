@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0
+}
+
+header {
+    background-color: #03a9f4;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.logo {
+    color: #ffffff;
+    font-size: 45px;
+}
+
+header input {
+    font-size: 20px;
+    margin: 20px;
+    padding: 8px;
+    border-radius: 40px;
+    border: none;
+    box-shadow: 10px 5px 15px rgba(88, 88, 88, 0.4);
+}
+
+input:focus { outline:none; }
+
+.news_header {
+    font-family: 'Lato', sans-serif;
+    color:  #03a9f4;
+}
+
+.news_item {
+    font-family: 'Lato', sans-serif;
+    padding: 32px 0;
+    box-sizing: border-box;
+    border-bottom: 1px solid hsla(0, 0%, 50%, 0.185);
+}
+
+footer {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
